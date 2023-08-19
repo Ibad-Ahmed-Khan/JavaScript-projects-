@@ -1,0 +1,39 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  height: 100vh;
+}
+
+.parent {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid green;
+  padding-inline: 20rem;
+}
+
+.parent > * {
+  height: 10rem;
+  width: 10rem;
+  border: 2px solid;
+  cursor: pointer;
+}
+
+.box1 {
+  background: red;
+}
+
+.box2 {
+  background: blue;
+}
+
+.box3 {
+  background: green;
+}
+
+.box4 {
+  background: yellow;
+}
