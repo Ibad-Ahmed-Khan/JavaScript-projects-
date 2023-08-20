@@ -24,11 +24,11 @@ body > * {
 }
 
 #white {
-  background: skyblue;
+  background: red;
 }
 
 #blue {
-  background: rgb(186, 84, 135);
+  background: green;
 }
 
 #yellow {
