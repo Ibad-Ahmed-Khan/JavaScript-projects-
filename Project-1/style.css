@@ -15,7 +15,7 @@ body {
 body > * {
   height: 10rem;
   width: 10rem;
-  border: 2px solid;
+  border: none;
   cursor: pointer;
 }
 

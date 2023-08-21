@@ -10,7 +10,7 @@ let counter = 0;
 value.textContent = counter;
 
 increment.addEventListener("click", function () {
-  value.textContent++;
+  value.textContent = Number(value.textContent) + 1;
 });
 
 decrement.addEventListener("click", function () {
