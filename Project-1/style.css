@@ -8,13 +8,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding-inline: 20rem;
+  padding-inline: 10rem;
   transition: all 1s ease-in-out;
 }
 
 body > * {
-  height: 10rem;
-  width: 10rem;
+  height: 13rem;
+  width: 13rem;
   border: none;
   cursor: pointer;
 }
