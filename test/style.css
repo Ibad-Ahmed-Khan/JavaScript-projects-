@@ -1,0 +1,72 @@
+/* Basic Resets and Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    #12c2e9,
+    #c471ed,
+    #f64f59
+  ); /* Beautiful gradient background */
+  color: #333;
+}
+
+/* Input box styling */
+#search {
+  padding: 10px 20px;
+  width: 80%;
+  max-width: 400px; /* Max width for larger screens */
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  outline: none;
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+}
+
+#search:focus {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Dropdown result list styling */
+#results {
+  margin-top: 15px;
+  width: 80%;
+  max-width: 400px; /* Max width for larger screens */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+}
+
+#results li {
+  padding: 10px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05); /* Very light border for definition */
+  list-style-type: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#results li:last-child {
+  border-bottom: none;
+}
+
+#results li:hover {
+  background-color: rgba(0, 0, 0, 0.05); /* Very light grey on hover */
+  transform: scale(1.02); /* Slight scaling for interactivity */
+}
+
+.highlight {
+  background-color: #ffeaa7; /* Bright yellow background for highlight */
+  padding: 0 2px; /* Small padding to make it stand out */
+}

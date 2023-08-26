@@ -1,0 +1,23 @@
+body {
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+form > * {
+  width: 20rem;
+  height: 2rem;
+  padding-left: 0.4rem;
+}
+
+#btn {
+  text-transform: capitalize;
+  cursor: pointer;
+  width: 10rem;
+}
